@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Coraline</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img class="logosite" src="img/logonav.png" alt="Logo">
+          </a>
+          <h2></h2>
+          <div class="d-flex">
+              <form class="d-flex me-2" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-success" type="submit">Pesquisar</button>
+              </form>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                  aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+          </div>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+              aria-labelledby="offcanvasDarkNavbarLabel">
+              <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                      aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                  <form class="d-flex me-2" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-success" type="submit">Pesquisar</button>
+                  </form>
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#Sobre">Sobre</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#galeria">Galeria</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </nav>
+  
+  </header>
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/carousel/coraline.livro.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="textosombra">A fascinante história de “Coraline” — do livro para o filme </h2>
+          <h5>O livro é excelente, mas com a adaptação cinematográfica vemos as grandes vantagens de algumas mudanças aqui e ali</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/carousel/coraline.4.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="textosombra">Um filme genial</h2>
+          <h5>O filme foi baseado no livro do autor Neil Gaiman, mesmo autor da famosa história “Sandman”.
+          </h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/carousel/coraline.2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="textosombra">Uma aventura fantastica</h2>
+          <h5>Ganhador do melhor filme de animação do ano em 2009</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/carousel/coraline.1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="textosombra">Henry Selick</h2>
+          <h5>Dirigido por um grandioso nome na industria da animação em stop-motion</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <main class="container">
+    <section id="Sobre">
+      <div class="row col-md-12">
+        <h1 class="text-center">Sobre</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <p>Publicado pela primeira vez em 2002, Coraline foi o primeiro livro de Neil Gaiman para o público infantojuvenil e se tornou uma das obras mais emblemáticas do escritor. Repleta de elementos ao mesmo tempo sombrios e lúdicos, a história conquistou crianças e adultos em todo o mundo e, em 2009, ganhou as telas de cinema em uma animação dirigida por Henry Selick, de O estranho mundo de Jack. Nesta edição especial em capa dura, com introdução do autor e projeto gráfico exclusivo, coube ao renomado ilustrador Chris Riddell dar vida ao universo mágico e aterrorizante criado por Neil Gaiman.</p>
+        </div>
+
+        <div class="col-md-6">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  <strong>Henry Selick Cineasta
+                    </strong>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Henry Selick nasceu em Glen Ridge, New Jersey, mas foi criado em Rumson. Sua paixão pela a animação começou ainda jovem, quando assistiu filmes de Ray Harryhausen e Lotte Reiniger. Foi casado duas vezes, com Alexandra Glay de 1995 a 2010, e atualmente está com a produtora Heather Selick. Selick possui dois filhos, George e Harry.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <strong>Neil Gaiman escritor</strong>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Neil Richard MacKinnon Gaiman Embaixador(a) da boa vontade da ACNUR FRSL (Portchester, 10 de novembro de 1960), nascido Neil Richard Gaiman e conhecido como Neil Gaiman, é um autor britânico de contos, romances, banda desenhada e roteiros.
+                  Entre suas obras em prosa estão Deuses Americanos e Belas Maldições, a segunda em parceria com Terry Pratchett.[1] Sua banda desenhada mais conhecida é Sandman, que tem como personagens principais Sandman (a personificação antropomórfica do Sonho, também é conhecido como Morpheus, numa referência à mitologia grega) e seus irmãos, Morte, Destino, Delírio, Desejo, Desespero e Destruição.[2]
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria">
+      <div class="row col-md-12">
+        <h1 class="text-center">Ilustrações do livro e filme</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-4 entre" style="height: 300px;">
+          <img class="espacamento galeria galeriacirc" src="img/galeria/cora.jpg" alt="">
+        </div>
+        <div class="col-md-4 entre" style="height: 300px;">
+          <img class="espacamento galeria" src="img/galeria/cora2.jpg" alt="">
+        </div>
+        <div class="col-md-4 entre" style="height: 300px;">
+          <img class="espacamento galeria" src="img/galeria/cora3.jpg" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 entre" style="height: 300px;">
+          <img class="espacamento galeria" src="img/galeria/cora4.jpg" alt="">
+        </div>
+        <div class="col-md-4 entre" style="height: 300px;">
+          <img class="espacamento galeria" src="img/galeria/cora5.jpg" alt="">
+        </div>
+        <div class="col-md-4 entre" style="height: 300px;">
+          <img class="espacamento galeria" src="img/galeria/cora6.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section id="bigcora">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/bigcora.png" alt="">
+          <img class="imgbwp" src="img/letrasembaixo.png" alt="icon">
+        </div>
+
+        <div class="col-md-6">
+          <h1 class="text-center">Coraline</h1>
+          <div>
+            <h2 class="textosombra">Medo e coragem da infância</h2>
+            <p>O filme conta a história de uma menina de 13 anos, Coraline, que se muda com os pais para uma casa nova. Ela particularmente não gosta da sua nova moradia e tampouco da sua relação apática e um pouco negligente com os seus pais. Como toda criança entrando na fase rebelde da adolescência, ela não gosta muito da vida que tem. Porém, ela descobre uma porta que a leva para a casa dos sonhos, com os pais dos sonhos e com tudo que ela mais quer — atenção, comida e uma vida mais “colorida” — , mas esse paraíso esconde segredos e perigos..</p>
+            
+            <h2 class="textosombra">Um sucesso iminente</h2>
+            <p>
+              Coraline chegou a faturar mais de 16 milhões de dólares no fim de semana de estreia[4] e foi indicado ao Oscar de melhor filme de animação.
+              O filme foi por parte da crítica especializada. Com o Tomatometer de 90% em base de 269 críticas, o Rotten Tomatoes chegou ao consenso: "Com a sua vívida animação stop motion combinada com história imaginativa de Neil Gaiman, Coraline é um filme visualmente deslumbrante e maravilhosamente divertido". Por parte da audiência do site, teve 73% de aprovação.[5]
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="CuriosidadesCoraline">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="text-center">Curiosidades Coraline</h2>
+            <p>1. O filme foi baseado no livro de Neil Gaiman, mesmo autor da famosa história “Sandman”.</p>
+            <p>2. A obra é considerada a primeira animação em stop-motion para o formato 3D. Inclusive, até hoje, foi o desenho mais longo já produzido utilizando essa técnica!</p>
+            <p>3. O filme teve uma indicação para melhor animação no Oscar de 2010.</p>
+            <p>4. Coraline foi o primeiro filme lançado pela Focus Features. </p>
+            <p>5. O filme teve o apoio de 500 pessoas, sendo que 70 delas eram fabricantes de bonecos.</p>
+            <a href="#galeria" class="btn btn-danger btn-branco">Encontre imagens</a>
+          </div>
+          <div class="col-md-6">
+            <img src="img/bigboy.png" alt="Aventura Jurássica" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <h5 class="escritafooter">Desenvolvido por Ryllary Barroso</h5>
+    <h5 class="escritafooter">Contate-me:</h5>
+    <a href="https://github.com/Ryllary"> <img width="40em" height="40em" src="img/githublogofooter.png"
+        alt="github Ryllary"></a>
+    <a href="https://www.instagram.com/https.ryllary/"><img width="40em" height="40em" src="img/instalogofooter.png"
+        alt="insta Ryllary" srcset=""></a>
+  </footer>
+
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
